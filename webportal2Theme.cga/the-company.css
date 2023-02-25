@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'OpenSans Light';
+  src: url(font/OpenSans/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: 'OpenSans Bold';
+  src: url(font/OpenSans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: 'Roboto Slab Bold';
+  src: url(font/Roboto/RobotoSlab-Bold.ttf);
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url(font/Roboto/RobotoSlab-Regular.ttf);
+}
+:root {
+
+  --the-company-red: #3c78b4;
+  --just-white-haha:#eff1f2;
+  --hiden:#fdfdfd00;
+  --the-company-red-semi: #942E1666;
+  --the-company-dark-red: #440E07;
+  --the-company-dark-red-semi: #993C2766;
+  --the-company-white: #FFFFFF;
+  --the-company-black: #000000;
+  --the-company-masala: #3E3A39;
+  --the-company-grey: #888888;
+  --the-company-medium-grey: #6E6E6E;
+  --the-company-dove-grey: #707070;
+  --the-company-silver: #A6A6A6;
+  --the-company-teal: #00677F;
+  --the-company-green: #169477;
+
+  /* Login logo */
+  --theme-login-logo-width: 150px;
+  --theme-login-logo-height: 50px;
+
+  /* Login page */
+  --theme-login-background-color: #902d45;
+  --theme-login-text-font-family: 'OpenSans Light';
+  --theme-login-text-color: var(--the-company-masala);
+  --theme-login-title-font-family: 'OpenSans Bold';
+  --theme-login-title-color: var(--hiden);
+  --theme-login-title-font-weight:50;
+  --theme-login-title-word-spacing: unset;
+  --theme-login-hero-text-font-family: 'Roboto Slab Bold';
+  --theme-login-hero-text-color: var(--hiden);
+
+  /* Accent colors */
+  --theme-accent-color: var(--the-company-silver);
+  --theme-accent-color-hover: var(--the-company-dark-red);
+  --theme-accent-color-focus: var(--the-company-dark-red);
+
+  /* Header */
+  --theme-header-background-color: var(--the-company-red);
+  --theme-header-foreground-color: var(--the-company-white);
+  --theme-header-font-family: 'Roboto Slab';
+
+  /* Logo */
+  --theme-logo-width: 150px;
+  --theme-logo-height: 50px;
+
+  /* Headlines */
+  --theme-headlines-font-family: 'Roboto Slab';
+  --theme-headlines-color: var(--the-company-black);
+  --theme-headlines-font-weight: 600;
+
+  /* Text */
+  --theme-text-normal-font-family: 'OpenSans Light';
+  --theme-text-normal-color: var(--the-company-masala);
+
+  --theme-text-medium-font-family: 'OpenSans Bold';
+  --theme-text-medium-color: var(--the-company-medium-grey);
+
+  --theme-text-bold-font-family: 'Roboto Slab Bold';
+  --theme-text-bold-color: var(--the-company-black);
+
+  /* Default Button */
+  --theme-button-background-color: var(--the-company-black);
+  --theme-button-background-color-hover: var(--the-company-red);
+  --theme-button-background-color-focus: var(--the-company-red);
+  --theme-button-foreground-color: var(--the-company-silver);
+  --theme-button-foreground-color-hover: var(--the-company-white);
+  --theme-button-foreground-color-focus: var(--the-company-white);
+  --theme-button-border-radius: 0;
+  --theme-button-border-color: transparent;
+  --theme-button-border-color-hover: transparent;
+  --theme-button-border-color-focus: transparent;
+
+  /* Small Button */
+  --theme-button-small-background-color: var(--the-company-black);
+  --theme-button-small-background-color-hover: var(--the-company-dove-grey);
+  --theme-button-small-background-color-focus: var(--the-company-dove-grey);
+  --theme-button-small-foreground-color: var(--the-company-white);
+  --theme-button-small-foreground-color-hover: var(--the-company-white);
+  --theme-button-small-foreground-color-focus: var(--the-company-white);
+  --theme-button-small-border-radius: 0;
+  --theme-button-small-border-color: transparent;
+  --theme-button-small-border-color-hover: transparent;
+  --theme-button-small-border-color-focus: transparent;
+
+  /* Split Button */
+  --theme-button-split-background-color: var(--the-company-black);
+  --theme-button-split-background-color-hover: var(--the-company-dark-red);
+  --theme-button-split-background-color-focus: var(--the-company-dark-red);
+  --theme-button-split-foreground-color: var(--the-company-white);
+  --theme-button-split-foreground-color-hover: var(--the-company-white);
+  --theme-button-split-foreground-color-focus: var(--the-company-white);
+  --theme-button-split-border-radius: 0;
+  --theme-button-split-border-color: transparent;
+  --theme-button-split-border-color-hover: transparent;
+  --theme-button-split-border-color-focus: transparent;
+  --theme-button-split-divider-color: var(--the-company-white);
+
+  /* Function button */
+  --theme-button-function-border-radius: 0;
+  --theme-button-function-background-color: transparent;
+  --theme-button-function-background-color-hover: var(--the-company-red);
+  --theme-button-function-background-color-focus: var(--the-company-red);
+  --theme-button-function-background-color-active: var(--the-company-red);
+  --theme-button-function-foreground-color: var(--the-company-medium-grey);
+  --theme-button-function-foreground-color-hover: var(--the-company-white);
+  --theme-button-function-foreground-color-focus: var(--the-company-white);
+  --theme-button-function-foreground-color-active: var(--the-company-white);
+
+  /* Dropdown (global) */
+  --theme-dropdown-background-color: transparent;
+  --theme-dropdown-background-color-focus: var(--the-company-red-semi);
+  --theme-dropdown-background-color-hover: var(--the-company-red-semi);
+  --theme-dropdown-background-color-selected: var(--the-company-red);
+  --theme-dropdown-foreground-color: var(--the-company-masala);
+  --theme-dropdown-foreground-color-focus: var(--the-company-masala);
+  --theme-dropdown-foreground-color-hover: var(--the-company-masala);
+  --theme-dropdown-foreground-color-selected: var(--the-company-white);
+
+  /* Text links */
+  --theme-text-link-background-color: transparent;
+  --theme-text-link-background-color-hover: var(--the-company-red);
+  --theme-text-link-background-color-focus: var(--the-company-red);
+  --theme-text-link-foreground-color: var(--the-company-red);
+  --theme-text-link-foreground-color-hover: var(--the-company-white);
+  --theme-text-link-foreground-color-focus: var(--the-company-white);
+  --theme-text-link-text-decoration: none;
+  --theme-text-link-text-decoration-hover: none;
+  --theme-text-link-text-decoration-focus: none;
+
+  /* Tooltip */
+  --theme-tooltip-background-color: var(--the-company-red);
+  --theme-tooltip-foreground-color: var(--the-company-white);
+
+  /* Checkbox */
+  --theme-checkbox-border-color: var(--the-company-grey);
+  --theme-checkbox-border-color-focus: var(--the-company-masala);
+  --theme-checkbox-border-color-hover: var(--the-company-grey);
+  --theme-checkbox-border-color-selected: var(--the-company-red);
+  --theme-checkbox-border-color-selected-focus: var(--the-company-red);
+  --theme-checkbox-border-color-selected-hover: var(--the-company-grey);
+  --theme-checkbox-background-color: var(--the-company-white);
+  --theme-checkbox-background-color-focus: var(--the-company-white);
+  --theme-checkbox-background-color-hover: var(--the-company-red-semi);
+  --theme-checkbox-background-color-selected: var(--the-company-red);
+  --theme-checkbox-background-color-selected-focus: var(--the-company-white);
+  --theme-checkbox-background-color-selected-hover: var(--the-company-red-semi);
+  --theme-checkbox-foreground-color-selected: var(--the-company-white);
+  --theme-checkbox-foreground-color-selected-focus: var(--the-company-red);
+  --theme-checkbox-foreground-color-selected-hover: var(--the-company-masala);
+
+  /* Selection List */
+  --theme-select-control-background-color: transparent;
+  --theme-select-control-background-color-hover: var(--the-company-red-semi);
+  --theme-select-control-background-color-focus: var(--the-company-dove-grey);
+  --theme-select-control-foreground-color: var(--the-company-medium-grey);
+  --theme-select-control-foreground-color-hover: var(--the-company-masala);
+  --theme-select-control-foreground-color-focus: var(--the-company-white);
+
+  /* Radio buttons */
+  --theme-radio-border-color: var(--the-company-grey);
+  --theme-radio-border-color-hover: var(--the-company-grey);
+  --theme-radio-border-color-selected: var(--the-company-teal);
+  --theme-radio-border-color-selected-hover: var(--the-company-grey);
+  --theme-radio-background-color: var(--the-company-white);
+  --theme-radio-background-color-hover: var(--the-company-red-semi);
+  --theme-radio-background-color-selected: var(--the-company-red);
+  --theme-radio-background-color-selected-hover: var(--the-company-red-semi);
+  --theme-radio-foreground-color-selected: var(--the-company-white);
+  --theme-radio-foreground-color-selected-hover: var(--the-company-masala);
+
+  /* Slider */
+  --theme-slider-border-radius: 0;
+  --theme-slider-border-color: var(--the-company-grey);
+  --theme-slider-border-color-hover: var(--the-company-grey);
+  --theme-slider-border-color-focus: var(--the-company-dove-grey);
+  --theme-slider-foreground-color: var(--the-company-white);
+  --theme-slider-foreground-color-hover: var(--the-company-red);
+  --theme-slider-foreground-color-focus: var(--the-company-dark-red-semi);
+  --theme-slider-bar-radius: 3.5px;
+  --theme-slider-background-color: var(--the-company-red);
+
+  /* Error Notification */
+  --theme-color-error: var(--the-company-red);
+
+  /* Sucess Notification */
+  --theme-color-success: var(--the-company-green);
+}
