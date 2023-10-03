@@ -6,7 +6,7 @@
 
 ```bash
 cd /opt/knime/knime_server_4.16/workflow_repository/config
-git clone
+git clone https://github.com/spatial-data-lab/webportal2Theme.cga.git
 ```
 
 2. change the configure file `/opt/knime/knime_server_4.16/workflow_repository/config/knime-server.config`
